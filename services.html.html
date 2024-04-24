@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alisa Shopping Center</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,900;1,600;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="Images/AlisaLogo.jpeg"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li id="li01"><a href="index.html">HOME</a></li>
+          <li id="li02"><a href="about.html.html">ABOUT</a></li>
+          <li id="li03"><a href="services.html.html">SERVICES</a></li>
+          <li id="li04"><a href="blog.html.html">BLOG</a></li>
+          <li id="li0"><a href="contact.html.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Services</h1>
+  </section> 
+
+
+  <!------------ Services ------------->
+
+  <section class="services">
+    <h1>Our Services</h1>
+    <p>
+      Alisa offers various services including retail stores,
+      food court, entertainment and so much more.
+    </p>
+
+    <div class="row">
+        <div class="services-col">
+            <h3>Retail Stores</h3>
+            <p>Embark on a journey where distinguished retail establishments present a selection of the latest goods. </p>
+        </div>
+        <div class="services-col">
+          <h3>Food Court</h3>
+          <p>Delight in a feast for the senses where our upscale food court caters to your tastes with a range cousines prepared by top chefs in the world</p>
+      </div>
+      <div class="services-col">
+        <h3>Entertainment</h3>
+        <p>Discover entertainment delight that caters to your every desire with a selection of shows, events, and activities to enhance your leisure experience.</p>
+    </div>
+    </div>
+
+</section>
+  
+  
+  <!------------------Facilities-------------------->
+
+<section class="facilities">
+  <h1>Our Facilities</h1>
+  <p>Welcome to our premier shopping destination where you can indulge in a culinary adventure at our food courts, theaters and restrooms.</p>
+
+    <div class="row">
+      <div class="facilities-col">
+        <img src="Images/FoodCourt2.jpg">
+        <h3>World Class Food Court</h3>
+        <p>Savor the finest dishes prepared by top chefs in a lively and 
+          inviting atmosphere at our exceptional food court. Treat yourself with a diverse selection of local and international cousines.
+        </p>
+      </div>
+      <div class="facilities-col">
+        <img src="Images/Theater1.jpg">
+        <h3>Exquisite Movie Theater</h3>
+        <p>Enjoy the latest blockbusters in style with our premium
+          sound and picture quality. Our movie theater offers a luxurious
+          and immersive cinematic experience.
+        </p>
+      </div>
+      <div class="facilities-col">
+        <img src="Images/Restroom1.jpg">
+        <h3>Elegant Restrooms</h3>
+        <p>Step into a realm of luxury and comfort in our restrooms, designed
+          for your utmost convinience. We offer cleanliness and sophistication, to ensure a pleasant visit every time.
+        </p>
+      </div>
+    </div>
+</section>
+
+    
+
+<section class="footer sefoot">
+  <h4>About Us</h4>
+  <p>Alisa Shopping Center is a beacon of luxury and sophistication, setting the standard for excellence in the world of retail. Discover a fusion of optulence and <br>modern design. With a selection of the finest brands and captivating architectural marvel, we redefine the shopping experience.</p>
+  <div class="icons">
+    <i class='fab fa-facebook'></i>
+    <i class='fab fa-linkedin'></i>
+    <i class='fab fa-twitter'></i>
+    <i class='fab fa-instagram'></i>
+  </div>
+  <p>Made by Digital Dons</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <!------------JavaScript for toggle Menu----------->
+  <script>
+
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+
+  </script>
+
+</body>
+</html>

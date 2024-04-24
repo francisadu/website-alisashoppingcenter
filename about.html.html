@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alisa Shopping Center</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,900;1,600;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="Images/AlisaLogo.jpeg"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li id="li01"><a href="index.html">HOME</a></li>
+          <li id="li02"><a href="about.html.html">ABOUT</a></li>
+          <li id="li03"><a href="services.html.html">SERVICES</a></li>
+          <li id="li04"><a href="blog.html.html">BLOG</a></li>
+          <li id="li0"><a href="contact.html.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+  </section> 
+
+
+  <!------------ About Us Content ------------->
+  
+  <section class="about-us">
+
+    <div class="row">
+      <div class="about-col">
+        <h1>We are the world's largest shopping mall</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quos aliquid nam cupiditate odit nihil error laborum expedita reprehenderit nisi praesentium omnis ratione explicabo, quae, perspiciatis eveniet vitae ipsum quia.</p>
+        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+      </div>
+      <div class="about-col">
+        <img src="Images/user4.jpg">
+      </div>
+    </div>
+  </section>
+
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Alisa Shopping Center is a beacon of luxury and sophistication, setting the standard for excellence in the world of retail. Discover a fusion of optulence and <br>modern design. With a selection of the finest brands and captivating architectural marvel, we redefine the shopping experience.</p>
+  <div class="icons">
+    <i class='fab fa-facebook'></i>
+    <i class='fab fa-linkedin'></i>
+    <i class='fab fa-twitter'></i>
+    <i class='fab fa-instagram'></i>
+  </div>
+  <p>Made by Digital Dons</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <!------------JavaScript for toggle Menu----------->
+  <script>
+
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+
+  </script>
+
+</body>
+</html>
